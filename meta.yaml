@@ -4,6 +4,7 @@ package:
 
 source:
   git_url: git@github.com:sklam/conda_build_tag_bug.git
+  # git_url: https://github.com/sklam/conda_build_tag_bug.git
 
 build:
   number: {{ environ.get('GIT_DESCRIBE_NUMBER', 0) }}
